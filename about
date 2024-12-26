@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Marie Sakowicz</title>
+    <style>
+        /* Copy the same styles from index.html */
+        /* [Previous styles remain the same] */
+        
+        .about-content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .about-content img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .research-interests {
+            margin-top: 30px;
+        }
+
+        .research-interests ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .research-interests li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f4f4f9;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="MS1.JPG" alt="Marie Sakowicz">
+        <h1>Marie Sakowicz</h1>
+        <p>Ph.D. Student in Human-Centered Computing | Researcher | Innovator</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="cv.html">CV</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a Ph.D. student in Human-Centered Computing at the University of Maryland Baltimore County (UMBC). My research journey is driven by a deep passion for making technology accessible and beneficial for all learners, particularly focusing on special education and assistive technologies.
+                </p>
+                
+                <p>
+                    With a background in education and technology, I bridge the gap between theoretical research and practical applications. My work primarily focuses on developing and implementing AI-enabled technologies that enhance educational experiences for students with diverse learning needs.
+                </p>
+
+                <div class="research-interests">
+                    <h3>Research Interests</h3>
+                    <ul>
+                        <li>AI in Education</li>
+                        <li>Special Education Technology</li>
+                        <li>Assistive Technology</li>
+                        <li>Universal Design for Learning</li>
+                        <li>Human-Computer Interaction</li>
+                        <li>Accessible Computing</li>
+                    </ul>
+                </div>
+
+                <h3>Current Research</h3>
+                <p>
+                    My current research explores the intersection of artificial intelligence and special education, with a particular focus on developing AI-enabled tools that support teachers in creating personalized learning experiences for students with autism spectrum disorder (ASD). This work involves close collaboration with educators, students, and families to ensure that the technology solutions we develop are both effective and user-friendly.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Marie Sakowicz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
