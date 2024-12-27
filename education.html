@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education - Marie Sakowicz</title>
     <style>
-          /* General Styles */
+        /* General Styles */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -23,24 +23,12 @@
             text-align: center;
         }
 
-        header img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            margin-bottom: 15px;
-        }
-
         header h1 {
             margin: 0;
             font-size: 2.5em;
         }
 
-        header p {
-            font-size: 1.2em;
-            margin: 5px 0 20px;
-        }
-
-            nav {
+        nav {
             background: #eee;
             padding: 10px;
             text-align: center;
@@ -65,28 +53,32 @@
             font-weight: 900;
         }
 
-
         .container {
             max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
         }
 
-        section {
-            margin-bottom: 40px;
+        .cv-section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
             color: #0044cc;
             border-bottom: 2px solid #0044cc;
             display: inline-block;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .skills {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
+            margin-bottom: 20px;
         }
 
         .skills div {
@@ -96,27 +88,34 @@
             border-radius: 5px;
         }
 
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+        .cv-item {
+            margin-bottom: 30px;
         }
 
-        .project {
-            background: white;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            border-radius: 5px;
-            transition: transform 0.3s ease;
+        .cv-item h3 {
+            color: #0044cc;
+            margin-bottom: 5px;
+            margin-top: 20px;
         }
 
-        .project:hover {
-            transform: scale(1.05);
+        .cv-item .date {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 5px;
         }
 
-        .project img {
-            max-width: 100%;
-            border-radius: 5px;
+        .cv-item p {
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .cv-item ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .cv-item li {
+            margin-bottom: 10px;
         }
 
         footer {
@@ -130,55 +129,15 @@
             header h1 {
                 font-size: 2em;
             }
-      
-        .cv-section {
-            background: white;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .cv-item {
-            margin-bottom: 20px;
-        }
-
-        .cv-item h3 {
-            color: #0044cc;
-            margin-bottom: 5px;
-        }
-
-        .cv-item .date {
-            color: #666;
-            font-style: italic;
-        }
-
-        .cv-item ul {
-            margin-top: 10px;
-            padding-left: 20px;
-        }
-
-        .download-cv {
-            display: inline-block;
-            background: #0044cc;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            margin-bottom: 20px;
-        }
-
-        .download-cv:hover {
-            background: #003399;
         }
     </style>
 </head>
 <body>
     <header>
-          <h1>Education - Marie Sakowicz</h1>
-       
+        <h1>Education - Marie Sakowicz</h1>
     </header>
- <nav>
+
+    <nav>
         <a href="index.html">Home</a><span class="separator">|</span>
         <a href="about.html">About Me</a><span class="separator">|</span>
         <a href="cv.html">CV</a><span class="separator">|</span>
@@ -187,8 +146,9 @@
         <a href="index.html#publications">Publications</a><span class="separator">|</span>
         <a href="index.html#contact">Contact</a>
     </nav>
-<div class="container">
-<section class="cv-section">
+
+    <div class="container">
+        <section class="cv-section">
             <h2>Skills</h2>
             <div class="skills">
                 <div>User Experience</div>
@@ -197,31 +157,27 @@
                 <div>Program Management</div>
             </div>
         </section>
-          </div>
 
-        
         <section class="cv-section">
             <h2>Education</h2>
             <div class="cv-item">
                 <h3>Ph.D. Student in Human-Centered Computing</h3>
                 <div class="date">2024 - Present</div>
                 <p>University of Maryland Baltimore County (UMBC)</p>
-          
-            <h3>Masters in Human-Centered Computing</h3>
-                <div class="date"> May 2024 </div>
+
+                <h3>Masters in Human-Centered Computing</h3>
+                <div class="date">May 2024</div>
                 <p>University of Maryland Baltimore County (UMBC)</p>
-                
-            <h3>Masters in Educational Technology </h3>
+
+                <h3>Masters in Educational Technology</h3>
                 <div class="date">May 2005</div>
-                <p>Nothern Arizona University (NAU)</p>
-                
-            <h3>B.S. Computer Information Systems / Management of Information Systems </h3>
+                <p>Northern Arizona University (NAU)</p>
+
+                <h3>B.S. Computer Information Systems / Management of Information Systems</h3>
                 <div class="date">Dec 2001</div>
                 <p>Park University</p>
-              
-          </div>
+            </div>
         </section>
-        
 
         <section class="cv-section">
             <h2>Technical Skills</h2>
@@ -236,7 +192,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Marie Sakowicz. All
- </footer>
+        <p>&copy; 2024 Marie Sakowicz. All rights reserved.</p>
+    </footer>
 </body>
 </html>
