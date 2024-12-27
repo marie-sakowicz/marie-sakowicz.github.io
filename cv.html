@@ -40,22 +40,31 @@
             margin: 5px 0 20px;
         }
 
-        nav {
+            nav {
             background: #eee;
             padding: 10px;
             text-align: center;
         }
 
         nav a {
-            margin: 0 15px;
             text-decoration: none;
             color: #0044cc;
-            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        nav span.separator {
+            color: #0044cc;
+            margin: 0 5px;
         }
 
         nav a:hover {
             text-decoration: underline;
         }
+
+        nav a.current-page {
+            font-weight: 900;
+        }
+
 
         .container {
             max-width: 1200px;
@@ -169,16 +178,16 @@
           <h1>CV - Marie Sakowicz</h1>
        
     </header>
-
-    <nav>
-        <a href="index.html">Home |</a>
-        <a href="about.html">About Me |</a>
-        <a href="cv.html">CV |</a>
-        <a href="index.html#skills">Skills |</a>
-        <a href="index.html#projects">Projects |</a>
-        <a href="index.html#publications">Publications |</a>
-        <a href="index.html#contact">Contact |</a>
+ <nav>
+        <a href="index.html">Home</a><span class="separator">|</span>
+        <a href="about.html">About Me</a><span class="separator">|</span>
+        <a href="cv.html" class="current-page">CV</a><span class="separator">|</span>
+        <a href="index.html#skills">Skills</a><span class="separator">|</span>
+        <a href="index.html#projects">Projects</a><span class="separator">|</span>
+        <a href="index.html#publications">Publications</a><span class="separator">|</span>
+        <a href="index.html#contact">Contact</a>
     </nav>
+
 
     <div class="container">
         <a href="CV.pdf" class="download-cv" download>Download Full CV (PDF)</a>
