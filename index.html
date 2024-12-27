@@ -37,33 +37,46 @@
 
         .header-text {
             text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
 
         header h1 {
             margin: 0;
             font-size: 2.5em;
+            line-height: 1.2;
         }
 
         header p {
             font-size: 1.2em;
-            margin: 5px 0 20px;
+            margin: 0;
+            line-height: 1.4;
         }
-
-        nav {
+        n   nav {
             background: #eee;
             padding: 10px;
             text-align: center;
         }
 
         nav a {
-            margin: 0 15px;
             text-decoration: none;
             color: #0044cc;
-            font-weight: bold;
+            padding: 0 10px;
+        }
+
+        nav span.separator {
+            color: #0044cc;
+            margin: 0 5px;
         }
 
         nav a:hover {
             text-decoration: underline;
+        }
+
+        nav a.current-page {
+            font-weight: 900;
+        }t-decoration: underline;
         }
 
         .container {
@@ -141,14 +154,14 @@
         <p>Ph.D. Student in Human-Centered Computing | Researcher | Program Manager</p>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="cv.html">CV</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
+<nav>
+        <a href="index.html"class="current-page">Home</a><span class="separator">|</span>
+        <a href="about.html">About Me</a><span class="separator">|</span>
+        <a href="cv.html" >CV</a><span class="separator">|</span>
+        <a href="index.html#skills">Skills</a><span class="separator">|</span>
+        <a href="index.html#projects">Projects</a><span class="separator">|</span>
+        <a href="index.html#publications">Publications</a><span class="separator">|</span>
+        <a href="index.html#contact">Contact</a>
     </nav>
 
     <div class="container">
